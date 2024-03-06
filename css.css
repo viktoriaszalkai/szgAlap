@@ -23,10 +23,18 @@ article {
     padding: 5px;
 }
 .szamok {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
    
 }
+
 .szamok button {
     
+}
+
+#i9{
+   grid-column-start: 2;
 }
 .muvjelek {
     grid-area: muv;
