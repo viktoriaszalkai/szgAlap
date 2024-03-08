@@ -28,11 +28,11 @@ console.log(event.target)
 const OSSZEADASGOMB = document.getElementById("osszeadas")
 const KIVONASGOMB = document.getElementById("kivonas")
 
-OSSZEADASGOMB[0].addEventListener("click", gombKattintasMuveletek);
-KIVONASGOMB[0].addEventListener("click", gombKattintasMuveletek);
+OSSZEADASGOMB.addEventListener("click", gombKattintasMuveletek);
+KIVONASGOMB.addEventListener("click", gombKattintasMuveletek);
 
 const EREDMENY = document.getElementsByClassName("eredmeny")
 function gombKattintasMuveletek(event){
-    EREDMENY[0].innerHTML += event.target.innerHTML;
+    KIFEJEZES[0].innerHTML += event.target.innerHTML;
   
 }
