@@ -24,3 +24,15 @@ console.log(event.target)
     KIFEJEZES[index].innerHTML += event.target.innerHTML;
   }
 }
+
+const OSSZEADASGOMB = document.getElementById("osszeadas")
+const KIVONASGOMB = document.getElementById("kivonas")
+
+OSSZEADASGOMB[0].addEventListener("click", gombKattintasMuveletek);
+KIVONASGOMB[0].addEventListener("click", gombKattintasMuveletek);
+
+const EREDMENY = document.getElementsByClassName("eredmeny")
+function gombKattintasMuveletek(event){
+    EREDMENY[0].innerHTML += event.target.innerHTML;
+  
+}
